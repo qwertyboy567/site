@@ -9,19 +9,19 @@ const courses = {
         title: "Программирование для детей",
         description: "Курс включает изучение основ Python и Scratch. Дети научатся создавать игры и простые приложения в игровой форме.",
         price: "15000 рублей",
-        image: "https://via.placeholder.com/300x200"
+        image: "/images/programming.jpg"
     },
     2: {
         title: "Английский язык",
         description: "Курс для всех уровней: от начинающих до продвинутых. Занятия с носителями языка и интерактивные уроки.",
         price: "12000 рублей",
-        image: "https://via.placeholder.com/300x200"
+        image: "/images/english.jpg"
     },
     3: {
         title: "Искусство и творчество",
         description: "Курс охватывает рисование, дизайн и рукоделие. Подходит для детей и взрослых, развивает креативность.",
         price: "10000 рублей",
-        image: "https://via.placeholder.com/300x200"
+        image: "/images/art.jpg"
     }
 };
 
@@ -74,4 +74,5 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
     alert('Сообщение отправлено! Мы свяжемся с вами скоро.');
     e.target.reset();
+
 });
